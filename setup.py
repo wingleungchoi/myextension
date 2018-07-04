@@ -1,7 +1,8 @@
 from setuptools import setup
 setup(
-    name='myextension',
-    version='1.0',
-    py_modules=['myextension'],
+    name='python-markdown-slack',
+    version='0.1',
+    py_modules=['python-markdown-slack'],
     install_requires = ['markdown>=2.5'],
+    license='MIT'
 )
